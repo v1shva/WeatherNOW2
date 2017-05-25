@@ -9,3 +9,7 @@
 .weatherImage{
   float:left;
 }
+
+*{
+  font-family: "Calibri Light";
+}

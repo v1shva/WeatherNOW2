@@ -60,7 +60,7 @@ export class AppComponent {
           this.updateWeatherData(weatherData), (err) =>
           this.handleError('Could not find weather details for ' + this.city));
       } else {
-        this.handleError('Could not find close city');
+        this.handleError('Could not find a city close by');
       }
     });
   }
