@@ -69,8 +69,8 @@ export class AppComponent {
     if (typeof weatherDataRes.current !== 'undefined'){
       this.weatherImageURL = weatherDataRes.current.condition.icon;
       this.weatherText = weatherDataRes.current.condition.text;
-      this.temp = weatherDataRes.current.temp_c;
-      this.feelsLikeTemp = weatherDataRes.current.feelslike_c;
+      this.temp = 'Temperature : ' + weatherDataRes.current.temp_c + '°';
+      this.feelsLikeTemp = 'Feels like ' + weatherDataRes.current.feelslike_c + '°';
       this.city = this.cityTemporary;
       this.error = '';
     } else {
