@@ -18,7 +18,7 @@ export class AppComponent {
   weatherText = '';
   temp = '';
   feelsLikeTemp = '';
-  error = '';
+  error = 'Please wait .... data is being fetched';
 
   @ViewChild(SebmGoogleMapMarker) private marker: SebmGoogleMapMarker; // get the marker from template
 
